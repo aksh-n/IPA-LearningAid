@@ -130,3 +130,6 @@ dmypy.json
 
 # vscode settings
 .vscode/settings.json
+
+# personal to-do list
+notes.txt
