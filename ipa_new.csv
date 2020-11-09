@@ -1,0 +1,174 @@
+ipa_symbol,category,description
+i,vowel,close front unrounded vowel
+ɪ ĭ I,vowel,near-close near-front unrounded vowel
+u,vowel,close back rounded vowel
+ʊ,vowel,near-close near-back rounded vowel
+e,vowel,close-mid front unrounded vowel
+ɛ,vowel,open-mid front unrounded vowel
+o,vowel,close-mid back rounded vowel
+ɔ,vowel,open-mid back rounded vowel
+a,vowel,open front unrounded vowel
+æ,vowel,near-open front unrounded vowel
+y,vowel,close front rounded vowel
+ʏ,vowel,near-close near-front rounded vowel
+ø,vowel,close-mid front rounded vowel
+œ,vowel,open-mid front rounded vowel
+ə ǝ ɚ,vowel,schwa
+ɘ,vowel,close-mid central unrounded vowel
+ɯ,vowel,close back unrounded vowel
+ɑ,vowel,open back unrounded vowel
+ɨ,vowel,close central unrounded vowel
+ɞ,vowel,open-mid central rounded vowel
+ɜ ɝ,vowel,open-mid central unrounded vowel
+ɐ,vowel,near-open central vowel
+ɤ,vowel,close-mid back unrounded vowel
+ɵ,vowel,close-mid central rounded vowel
+ʉ,vowel,close central rounded vowel
+ᵻ ɪ̈,vowel,near-close central unrounded vowel
+ɶ,vowel,open front rounded vowel
+ɒ,vowel,open back rounded vowel
+ᵿ ʊ̈,vowel,near-close central rounded vowel
+ʌ,vowel,open-mid back unrounded vowel
+t͡s t͜s ʦ tˢ,affricate,voiceless alveolar affricate
+d͡z d͜z ʣ,affricate,voiced alveolar affricate
+t͡ʃ t͜ʃ ʧ,affricate,voiceless palato-alveolar affricate
+d͡ʒ d͜ʒ ʤ ǰ,affricate,voiced palato-alveolar affricate
+t͡ɕ t͜ɕ ʨ,affricate,voiceless alveolo-palatal affricate
+d͡ʑ d͜ʑ ʥ,affricate,voiced alveolo-palatal affricate
+t͡ɬ t͜ɬ ƛ,affricate,voiceless alveolar lateral affricate
+k͡p k͜p,affricate,voiceless labial-velar plosive
+ɡ͡b,affricate,voiced labial-velar plosive
+ɫ,lateral approximant,velarized alveolar lateral approximant
+ɥ,approximant,labial-palatal approximant
+j,approximant,palatal approximant
+l,lateral approximant,alveolar lateral approximant
+ʎ,lateral approximant,palatal lateral approximant
+ɭ,lateral approximant,retroflex lateral approximant
+ʟ,lateral approximant,velar lateral approximant
+ɰ,approximant,velar approximant
+ɹ,approximant,alveolar approximant
+ɻ,approximant,retroflex approximant
+ʋ,approximant,labiodental approximant
+w,approximant,labial-velar approximant
+ɾ,flap,alveolar flap
+ɺ,flap,alveolar lateral flap
+ɽ,flap,retroflex flap
+β,fricative,voiced bilabial fricative
+ç,fricative,voiceless palatal fricative
+ð,fricative,voiced dental fricative
+f,fricative,voiceless labiodental fricative
+ɣ,fricative,voiced velar fricative
+h,fricative,voiceless glottal fricative
+ɦ,fricative,voiced glottal fricative
+ʜ,fricative,voiceless epiglottal fricative
+ʝ,fricative,voiced palatal fricative
+ɮ,fricative,voiced alveolar lateral fricative
+ɬ,fricative,voiceless alveolar lateral fricative
+ɸ,fricative,voiceless bilabial fricative
+ʁ,fricative,voiced uvular fricative
+s,fricative,voiceless alveolar fricative
+ɕ,fricative,voiceless alveolo-palatal fricative
+ʃ,fricative,voiceless postalveolar fricative
+ʂ,fricative,voiceless retroflex fricative
+θ,fricative,voiceless dental fricative
+ʢ,fricative,voiced epiglottal fricative
+ʕ,fricative,voiced pharyngeal fricative
+v,fricative,voiced labiodental fricative
+ʍ,fricative,voiceless labial-velar fricative
+ħ,fricative,voiceless pharyngeal fricative
+ɧ,fricative,voiceless palatal-velar fricative
+x,fricative,voiceless velar fricative
+χ,fricative,voiceless uvular fricative
+ʑ,fricative,voiced alveolo-palatal fricative
+ʐ,fricative,voiced retroflex fricative
+z,fricative,voiced alveolar fricative
+ʒ,fricative,voiced postalveolar fricative
+ɓ,stop,voiced bilabial implosive stop
+ɗ,stop,voiced alveolar implosive stop
+ɠ,stop,voiced velar implosive stop
+ʛ,stop,voiced uvular implosive stop
+ʄ,stop,voiced palatal implosive stop
+ɱ,nasal,labiodental nasal
+ɲ,nasal,palatal nasal
+m,nasal,bilabial nasal
+n,nasal,alveolar nasal
+ŋ,nasal,velar nasal
+ɳ,nasal,retroflex nasal
+ɴ,nasal,uvular nasal
+b,stop,voiced bilabial plosive stop
+c,stop,voiceless palatal plosive stop
+d,stop,voiced alveolar plosive stop
+ɖ,stop,voiced retroflex plosive stop
+ʡ,stop,epiglottal plosive stop
+ɢ,stop,voiced uvular plosive stop
+ɡ g,stop,voiced velar plosive stop
+ɟ,stop,voiced palatal plosive stop
+k,stop,voiceless velar plosive stop
+p,stop,voiceless bilabial plosive stop
+q,stop,voiceless uvular plosive stop
+t,stop,voiceless alveolar plosive stop
+ʈ,stop,voiceless retroflex plosive stop
+ˑ,suprasegmental,half long
+‿,suprasegmental,linking mark
+ː,suprasegmental,long
+‖,suprasegmental,major (intonation) group
+|,suprasegmental,minor (foot) group
+ˈ,suprasegmental,primary stress
+ˌ,suprasegmental,secondary stress
+̆,suprasegmental,extra-short
+ʙ,trill,bilabial trill
+r,trill,alveolar trill
+ʀ,trill,uvular trill
+̥,diacritic,voiceless
+̘,diacritic,advanced tongue root
+̺,diacritic,apical
+̟,diacritic,advanced
+˩ ̏ ,diacritic,extra low tone
+˩˨ ᷅ ,diacritic,low rising tone
+̈,diacritic,centralized
+̜,diacritic,less rounded
+̪,diacritic,dental
+ꜜ,diacritic,downstep
+ʼ,diacritic,ejective
+̴,diacritic,velarized or pharyngealized
+˥˩ ̂ ,diacritic,falling tone
+↘,diacritic,global fall
+ˠ,diacritic,velarized
+ʰ,diacritic,aspirated
+˦ ́ ,diacritic,high tone
+˦˥ ᷄ ,diacritic,high rising tone
+ʲ,diacritic,palatalized
+̰,diacritic,creaky voice
+ˡ,diacritic,lateral release
+˨ ̀ ,diacritic,low tone
+,diacritic,laminal
+˧ ̄ ,diacritic,mid tone
+,diacritic,nasalization
+̼,diacritic,linguolabial
+ⁿ,diacritic,nasal release
+̚,diacritic,no audible release
+̯,diacritic,non-syllabic
+̞,diacritic,lowered
+̹,diacritic,more rounded
+ˤ,diacritic,pharyngealized
+̙,diacritic,retracted tongue root
+̠,diacritic,retracted
+˦˥˦ ᷈ ,diacritic,rising falling tone
+↗,diacritic,global rise
+˞,diacritic,rhotacization in vowels
+˩˥̌ ,diacritic,rising tone
+̝,diacritic,raised
+,diacritic,syllabic
+̤,diacritic,breathy voice
+˥ ̋ ,diacritic,extra high tone
+̋ꜛ,diacritic,upstep
+̬,diacritic,voiced
+ʷ,diacritic,labialized
+̽,diacritic,mid-centralized
+ǁ,click,alveolar lateral click
+ǀ,click,dental click
+ʘ,click,bilabial click
+ǂ,click,palatal click
+ǃ,click,postalveolar click
+.,syllablesep,syllable break
+ʔ,stop,glottal stop
