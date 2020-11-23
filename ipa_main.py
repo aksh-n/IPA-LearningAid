@@ -1,5 +1,3 @@
-from pprint import pprint
-
 nat_classes = {
     'Major Natural Classes': ['Vowel', 'Consonant', 'Sonorant', 'Obstruent'],
     'Manner of Articulation Natural Classes': ['Glide', 'Liquid', 'Lateral', 'Rhotic', 'Nasal', 'Fricative', 'Stop', 'Affricate'],
@@ -48,10 +46,10 @@ def final_ipa_dict() -> dict:
                 symbols = row[0].split()
                 for symbol in symbols:
                     if symbol in ipa_dict:
-                        symbol_in_dict = symbol
+                        classes = ipa_dict[symbol]
                         break
                 for symbol in symbols:
-                    ipa_dict[symbol] = [row[0], row[2].rstrip(), ipa_dict[symbol_in_dict]]
+                    ipa_dict[symbol] = [row[0], row[2].rstrip(), classes]
     return ipa_dict
 
 
@@ -71,4 +69,3 @@ def final_output(ipa: str, gui=True) -> list:
     output =  f"IPA Symbol(s): {ipa}\n" + f"Description: {desc}\n" + last_line
     return output
 
-# final_output("w")
