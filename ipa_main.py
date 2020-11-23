@@ -56,15 +56,18 @@ def final_ipa_dict() -> dict:
 
 
 ipa_dict = final_ipa_dict()
-def final_output(ipa: str) -> list:
+def final_output(ipa: str, gui=True) -> list:
     """Returns a list of: ipa symbol(s), description and natural classes."""
     if ipa not in ipa_dict:
-        return "Please enter a valid IPA symbol."
+        return False
     ipa, desc, cat_or_class = ipa_dict[ipa]
     if type(cat_or_class) == str:
+        cat_or_class = [cat_or_class]
         last_line = f"Category: {cat_or_class}"
     else:
         last_line = f"Natural Classes: {cat_or_class}"
+    if gui:
+        return ipa.split(' '), desc.split(' '), cat_or_class
     output =  f"IPA Symbol(s): {ipa}\n" + f"Description: {desc}\n" + last_line
     return output
 
