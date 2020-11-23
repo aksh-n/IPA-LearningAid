@@ -1,34 +1,34 @@
 ipa_symbol,category,description
-i,vowel,close front unrounded vowel
-ɪ ĭ I,vowel,near-close near-front unrounded vowel
-u,vowel,close back rounded vowel
-ʊ,vowel,near-close near-back rounded vowel
-e,vowel,close-mid front unrounded vowel
-ɛ,vowel,open-mid front unrounded vowel
-o,vowel,close-mid back rounded vowel
-ɔ,vowel,open-mid back rounded vowel
-a,vowel,open front unrounded vowel
-æ,vowel,near-open front unrounded vowel
-y,vowel,close front rounded vowel
-ʏ,vowel,near-close near-front rounded vowel
-ø,vowel,close-mid front rounded vowel
-œ,vowel,open-mid front rounded vowel
+i,vowel,high front unrounded vowel
+ɪ ĭ I,vowel,near-high near-front unrounded vowel
+u,vowel,high back rounded vowel
+ʊ,vowel,near-high near-back rounded vowel
+e,vowel,high-mid front unrounded vowel
+ɛ,vowel,low-mid front unrounded vowel
+o,vowel,high-mid back rounded vowel
+ɔ,vowel,low-mid back rounded vowel
+a,vowel,low front unrounded vowel
+æ,vowel,near-low front unrounded vowel
+y,vowel,high front rounded vowel
+ʏ,vowel,near-high near-front rounded vowel
+ø,vowel,high-mid front rounded vowel
+œ,vowel,low-mid front rounded vowel
 ə ǝ ɚ,vowel, mid central unrounded vowel
-ɘ,vowel,close-mid central unrounded vowel
-ɯ,vowel,close back unrounded vowel
-ɑ,vowel,open back unrounded vowel
-ɨ,vowel,close central unrounded vowel
-ɞ,vowel,open-mid central rounded vowel
-ɜ ɝ,vowel,open-mid central unrounded vowel
-ɐ,vowel,near-open central vowel
-ɤ,vowel,close-mid back unrounded vowel
-ɵ,vowel,close-mid central rounded vowel
-ʉ,vowel,close central rounded vowel
-ᵻ ɪ̈,vowel,near-close central unrounded vowel
-ɶ,vowel,open front rounded vowel
-ɒ,vowel,open back rounded vowel
-ᵿ ʊ̈,vowel,near-close central rounded vowel
-ʌ,vowel,open-mid back unrounded vowel
+ɘ,vowel,high-mid central unrounded vowel
+ɯ,vowel,high back unrounded vowel
+ɑ,vowel,low back unrounded vowel
+ɨ,vowel,high central unrounded vowel
+ɞ,vowel,low-mid central rounded vowel
+ɜ ɝ,vowel,low-mid central unrounded vowel
+ɐ,vowel,near-low central vowel
+ɤ,vowel,high-mid back unrounded vowel
+ɵ,vowel,high-mid central rounded vowel
+ʉ,vowel,high central rounded vowel
+ᵻ ɪ̈,vowel,near-high central unrounded vowel
+ɶ,vowel,low front rounded vowel
+ɒ,vowel,low back rounded vowel
+ᵿ ʊ̈,vowel,near-high central rounded vowel
+ʌ,vowel,low-mid back unrounded vowel
 t͡s t͜s ʦ tˢ,affricate,voiceless alveolar affricate
 d͡z d͜z ʣ,affricate,voiced alveolar affricate
 t͡ʃ t͜ʃ ʧ,affricate,voiceless palato-alveolar affricate
