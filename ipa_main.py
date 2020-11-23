@@ -42,7 +42,7 @@ def final_ipa_dict() -> dict:
             row = row.split(",")
             if row[0] not in ipa_dict and len(row[0].split()) == 1:
                 ipa_dict[row[0]] = [row[0], row[2].rstrip(), row[1]]
-            if len(row[0].split()) == 1: 
+            elif len(row[0].split()) == 1: 
                 ipa_dict[row[0]] = [row[0], row[2].rstrip(), ipa_dict[row[0]]]
             else:
                 symbols = row[0].split()
@@ -58,15 +58,14 @@ def final_ipa_dict() -> dict:
 ipa_dict = final_ipa_dict()
 def final_output(ipa: str) -> list:
     """Returns a list of: ipa symbol(s), description and natural classes."""
+    if ipa not in ipa_dict:
+        return "Please enter a valid IPA symbol."
     ipa, desc, cat_or_class = ipa_dict[ipa]
     if type(cat_or_class) == str:
         last_line = f"Category: {cat_or_class}"
     else:
         last_line = f"Natural Classes: {cat_or_class}"
-    print(
-        f"IPA Symbol(s): {ipa}\n" +
-        f"Description: {desc}\n" +
-        last_line
-    )
+    output =  f"IPA Symbol(s): {ipa}\n" + f"Description: {desc}\n" + last_line
+    return output
 
-final_output("w")
+# final_output("w")
