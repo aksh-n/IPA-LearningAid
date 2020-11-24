@@ -25,7 +25,7 @@ class Application(tk.Frame):
     
 
     def create_widgets(self):
-        self.intro = tk.Label(self, text="Please enter an IPA Symbol:", fg="white", bg="#34A2FE")  # width = 100
+        self.intro = tk.Label(self, text="Please enter an IPA Symbol:", fg="white", bg="VioletRed3")  # width = 100
         self.intro.place(x=0, y=0, height=HEIGHT_WIDGET, width=2/5 * WIDTH)
         self.intro.config(font=("Courier", 15))
         
@@ -37,7 +37,7 @@ class Application(tk.Frame):
 
         # self.quit = tk.Button(self, text="QUIT", fg="red", command=self.master.destroy)
         # self.quit.pack(side="bottom")
-        self.error = tk.Label(self, fg="white", bg="red") 
+        self.error = tk.Label(self, fg="white", bg="IndianRed1") 
         self.error.place(x=0, y=HEIGHT_WIDGET, width=WIDTH, height=HEIGHT_WIDGET)
         self.error.config(font=("Courier", 15))
 
@@ -56,9 +56,9 @@ class Application(tk.Frame):
         self.divider.place(x=1/5*WIDTH, y=3 * HEIGHT_WIDGET, height=HEIGHT_LEFT, width=5)
         self.divider2.place(x=2/5*WIDTH + 5, y=3 * HEIGHT_WIDGET, height=HEIGHT_LEFT, width=5)
         
-        self.ipa_symbols = tk.Label(self, text="IPA SYMBOLS", fg="white", bg="#34A2FE")
-        self.description = tk.Label(self, text="DESCRIPTION", fg="white", bg="#34A2FE")
-        self.nat_cat = tk.Label(self, text="NATURAL CLASSES/CATEGORY", fg="white", bg="#34A2FE")
+        self.ipa_symbols = tk.Label(self, text="IPA SYMBOLS", fg="white", bg="midnight blue")
+        self.description = tk.Label(self, text="DESCRIPTION", fg="white", bg="midnight blue")
+        self.nat_cat = tk.Label(self, text="NATURAL CLASSES/CATEGORY", fg="white", bg="midnight blue")
         self.ipa_symbols.config(font=("Courier", 15))
         self.description.config(font=("Courier", 15))
         self.nat_cat.config(font=("Courier", 15))
