@@ -15,7 +15,7 @@ features = [
 def ipaFeatures_dict() -> dict:
     """Returns a dict with ipa consonant/vowel as the key and a list of natural classes."""
     ipa_dict = {}
-    with open("ipaFeatures_new.csv", "r") as f:
+    with open("ipaFeatures_new.csv", "r", encoding="utf8") as f:
         f.readline()
         for row in f:
             row = row.rstrip().split(",")
@@ -34,7 +34,7 @@ def ipaFeatures_dict() -> dict:
 def final_ipa_dict() -> dict:
     """Returns the ipaFeatures dict with added ipa_symbols and description."""
     ipa_dict = ipaFeatures_dict()
-    with open("ipa_new.csv", "r") as f:
+    with open("ipa_new.csv", "r", encoding="utf8") as f:
         f.readline()
         for row in f:
             row = row.split(",")
